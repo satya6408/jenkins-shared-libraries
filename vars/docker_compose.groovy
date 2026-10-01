@@ -1,3 +1,3 @@
-def call(){
-  sh "docker-compose down && docker-compose up -d"
+def call() {
+    sh "docker-compose down && docker-compose up -d"
 }
